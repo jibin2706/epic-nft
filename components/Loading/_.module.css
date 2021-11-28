@@ -1,0 +1,12 @@
+.container {
+  animation: spin 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
